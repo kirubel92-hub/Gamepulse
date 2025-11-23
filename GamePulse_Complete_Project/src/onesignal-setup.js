@@ -1,0 +1,1 @@
+export function initOneSignal(){ if(!window.OneSignal)return; window.OneSignal=window.OneSignal||[]; window.OneSignal.push(()=>{ window.OneSignal.init({ appId:'YOUR-ONESIGNAL-APP-ID', allowLocalhostAsSecureOrigin:true });});}
